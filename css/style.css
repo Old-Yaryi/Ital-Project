@@ -30,5 +30,27 @@
 }
 .menu__list-link {
   text-decoration: none;
-
+  position: relative;
+  color: #424242;
+}
+.menu__list-link::after { 
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  
+  height: 1px;
+  width: 0;
+  background: #D8B152;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.menu__list-link:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+.menu__list-link:active::after { 
+  width: 100%; 
+  left: 0; 
 }
