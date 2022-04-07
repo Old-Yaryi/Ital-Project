@@ -12,7 +12,8 @@ button{
 }
 h1 {
   font-size: 72px;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
+  
 }
 
 .body {
@@ -111,7 +112,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/*.slider {
+.slider {
   max-width: 1400px;
   max-height: 800px;
   margin: 0 auto;
@@ -120,7 +121,7 @@ h1 {
   right: 0%;
   top: 0;
   z-index: -1;
-}*/
+}
 .slider2 {
   max-width: 1400px;
   max-height: 800px;
@@ -130,4 +131,7 @@ h1 {
   right: 0%;
   top: 0;
   z-index: -1;
+}
+.slick-dots  {
+  display: flex;
 }
