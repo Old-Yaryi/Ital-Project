@@ -10,6 +10,10 @@ button{
   cursor: pointer;
   text-align: center;
 }
+h1 {
+  font-size: 72px;
+  margin-bottom: 75px;
+}
 
 .body {
   font-family: 'Open Sans', sans-serif;
@@ -107,7 +111,17 @@ button{
   margin-bottom: 20px;
 }
 
-.slider {
+/*.slider {
+  max-width: 1400px;
+  max-height: 800px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0;
+  z-index: -1;
+}*/
+.slider2 {
   max-width: 1400px;
   max-height: 800px;
   margin: 0 auto;
