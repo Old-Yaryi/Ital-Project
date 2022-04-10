@@ -278,6 +278,13 @@ h1 {
 .footer__item {
   margin-top: 140px;
 }
+
+.footer__item-inner {
+  display: flex;
+  padding-top: 140px;
+  justify-content: space-between;
+  position: relative;
+}
 .footer__item-inner::before {
   content: '';
   position: absolute;
@@ -288,12 +295,10 @@ h1 {
   background-color: #D8B152;
   margin-bottom: -50px; 
 }
-.footer__item-inner {
-  display: flex;
-  padding-top: 140px;
-  justify-content: space-between;
-  position: relative;
+.footer__inner-logo {
+  margin-top: -15px;
 }
+
 .footer__inner-info {
   display: flex;
   flex-direction: column;
@@ -307,7 +312,18 @@ h1 {
 .footer__inner-link {
   text-decoration: none;
   color: #fff;
+  
 }
+
+.footer__inner-contacts_item {
+  display: flex;
+  text-align: center;
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
 
 .footer__item-underground {
   margin-top: 100px;
