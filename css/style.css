@@ -178,12 +178,12 @@ h1 {
   grid-gap: 40px;
 }
 .servises__items-block {
-  position: relative;
-  
-
+  position: relative;  
 }
 
-
+.block-3 {
+  padding-bottom: 10px;
+}
 .servises__items-block:hover{
   opacity: 1;
 
