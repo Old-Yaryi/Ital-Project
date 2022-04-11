@@ -49,7 +49,9 @@ h1 {
   font-size: 46px;
   line-height: 63px;
 }
-
+.header {
+  margin-bottom: 5px;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -88,7 +90,7 @@ h1 {
   width: 100%; 
   left: 0; 
 }
-.menu__list-link:active::after { 
+.menu__list-link::after:active { 
   width: 100%; 
   left: 0; 
 }
