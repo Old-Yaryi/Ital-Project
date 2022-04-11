@@ -217,6 +217,9 @@ h1 {
   color: #fff;
   background-color: rgba(80, 61, 43, .7);
 }
+.intm {
+  margin-bottom: 5px;
+}
 
 
 .servises__items-block_info-dscr {
