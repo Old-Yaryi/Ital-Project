@@ -381,11 +381,43 @@ text-decoration: none;
 .linar {
   text-decoration-line: underline;
 }
- 
+
+.slider-feedback ul{
+  margin-left: -180px;
+}
+
+.bx-wrapper {
+  position: relative;
+} 
+
+.bx-controls {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+}
+
 .bx-controls-direction {
   display: flex;
   justify-content: space-around;
 }
-.bx-controls-direction .bx-prev {
-  background-image: url('C:\Users\yar\Desktop\itali\img\arrow_color_left.png');
+.bx-prev {
+  background:  url(../img/arrow_color_left.png) 0 0 no-repeat;
+  margin-left: 75px;
+  width: 40px;
+  height: 40px;
+  text-indent: -600px;
 }
+.bx-prev:hover {
+  background: url(../img/arrow_white_left.png);
+}
+ .bx-next {
+  background:  url(../img/arrow_color_right.png) 0 0 no-repeat;
+  margin-right: 70px;
+  width: 40px;
+  height: 40px;
+  text-indent: -2000px;
+ }
+ .bx-next:hover {
+   background: url(../img/arrow_white_right.png);
+ }
