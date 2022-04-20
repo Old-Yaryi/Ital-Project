@@ -222,8 +222,6 @@ h1 {
 .intm {
   margin-bottom: 5px;
 }
-
-
 .servises__items-block_info-dscr {
   position: absolute;
   top: -50px;
@@ -382,4 +380,12 @@ text-decoration: none;
 }
 .linar {
   text-decoration-line: underline;
+}
+ 
+.bx-controls-direction {
+  display: flex;
+  justify-content: space-around;
+}
+.bx-controls-direction .bx-prev {
+  background-image: url('C:\Users\yar\Desktop\itali\img\arrow_color_left.png');
 }
