@@ -176,6 +176,7 @@ h3 {
   font-family: 'Open Sans';
   margin-bottom: 60px;
   width: 860px;
+  width: 100%;
 }
 
 
@@ -477,9 +478,7 @@ text-decoration: none;
   flex-direction: column;
   margin-bottom: 100px;
 }
-.awards__inner {
 
-}
 .awards__item {
   display: flex;
 }

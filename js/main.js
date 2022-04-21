@@ -23,3 +23,14 @@ $(document).ready(function(){
 		slideWidth: 560
 	});
 });
+
+$(document).ready(function(){
+
+  $('#aics-autostart').anyImageComparisonSlider({
+    initialPosition: 0.5,
+    autoAnimation: true,
+    autoAnimationSpeed: 5,
+    cursor: 'col-resize',
+    dividingLine: 'solid 3px rgba(255, 255, 255, .5)'
+  });
+});
