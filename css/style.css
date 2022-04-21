@@ -39,12 +39,12 @@ h1 {
   font-weight: 400;
   color: #424242;
 }
-.h1 {
+h1 {
   font-weight: 600;
   font-size: 56px;
   line-height: 140%;
 }
-.h2{
+h2{
   font-weight: 600;
   font-size: 46px;
   line-height: 63px;
@@ -507,4 +507,30 @@ text-decoration: none;
 .awards__item-blockinfo-btn {
   padding: 0 0;
 }
-  
+.publicaton__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.publication__item {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: #D8B152 1px solid;
+}
+.bl {
+  border-left: #D8B152 1px solid;
+}
+.publication__item-block {
+  margin-left: 40px;
+}
+.publication__item-h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.publication__item-descr {
+  margin-bottom: 30px;
+}
+.publication__item-btn {
+  margin-bottom: 50px;
+}
