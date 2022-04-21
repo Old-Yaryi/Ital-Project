@@ -30,7 +30,7 @@ $(document).ready(function(){
     initialPosition: 0.5,
     autoAnimation: true,
     autoAnimationSpeed: 5,
-    cursor: 'col-resize',
-    dividingLine: 'solid 3px rgba(255, 255, 255, .5)'
+    cursor: 'none',
+    dividingLine: 'solid 3px rgba(255, 255, 255, 1)'
   });
 });
