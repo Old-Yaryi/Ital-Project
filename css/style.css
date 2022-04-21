@@ -382,8 +382,11 @@ text-decoration: none;
   text-decoration-line: underline;
 }
 
+.slider-feedback {
+  margin-bottom: 149px;
+}
 .slider-feedback ul{
-  margin-left: -180px;
+  margin-left: -230px;
 }
 
 .bx-wrapper {
@@ -421,3 +424,48 @@ text-decoration: none;
  .bx-next:hover {
    background: url(../img/arrow_white_right.png);
  }
+ .feedback-desc {
+   font-size: 18px;
+   margin-bottom: 60px;
+ }
+ .fb {
+   margin-bottom: 20px;
+ }
+ .feedback-form__item {
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 140px;
+ }
+  .feedback-form__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-right: 40px;
+  }
+  .feedback-form__area-input {
+    margin-bottom: 20px;
+    border: #D8B152 1px solid;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding: 18px 30px 17px; 
+  }
+  .feedback__btn {
+    width: 360px;
+    height: 60px;
+  }
+  .feedback-form__area {
+    border: #D8B152 1px solid;
+    width: 760px;
+
+  }
+  .feedback-form__area-textarea {
+    resize: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding: 18px 30px 17px; 
+    width: 90%;
+    height: 83%;
+  }
+
+  
