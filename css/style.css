@@ -578,6 +578,7 @@ text-decoration: none;
 }
 .baners {
   margin-top: -11px;
+  margin-bottom: 70px;
 }
 .baners__item {
   display: grid;
@@ -593,4 +594,44 @@ text-decoration: none;
   align-items: center;
   padding: 23px 20px;
   justify-content: center;
+}
+.introduction {
+  margin-bottom: 139px;
+}
+.introduction__item {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction__inner {
+  margin-right: 40px;
+}
+.introduction__inner-text {
+  width: 560px;
+}
+.introduction__inner-text ul {
+  List-style-type: none;
+}
+.introduction__inner-text li {
+  margin-bottom: 20px;
+}
+.hall {
+  margin-bottom: 51px;
+}
+.hall__item  {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.hall__inner {
+  margin-right: 40px;
+}
+.hl {
+  margin-bottom: 50px;
+}
+.hall__inner-text {
+  font-size: 18px;
+  line-height: 27px; 
+}
+.hl2 {
+  margin-right: 0;
 }
