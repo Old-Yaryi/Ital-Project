@@ -52,7 +52,15 @@ h2{
 h3 {
   line-height: 39.3px;
   font-size: 28px;
-
+}
+h5 {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 28px;
+  line-height: 42px;
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 600;
 }
 .header {
   margin-bottom: 5px;
@@ -664,4 +672,9 @@ text-decoration: none;
 .liveroom__inner ul {
   List-style-type: none;
   line-height: 27px;
+}
+.quote {
+  background-color: #AEA38B;
+  padding: 130px 220px 144px;
+  text-align: center;
 }
