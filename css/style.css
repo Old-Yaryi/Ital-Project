@@ -575,6 +575,22 @@ text-decoration: none;
   border-top-right-radius: 120px;
   border-bottom-right-radius: 120px;
   border-left: none;
-  
-  
+}
+.baners {
+  margin-top: -11px;
+}
+.baners__item {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  justify-content: space-between;
+  grid-template-rows: 100px;
+}
+.baners__inner {
+  text-align: center;
+  background-color: #AEA38B;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 23px 20px;
+  justify-content: center;
 }
