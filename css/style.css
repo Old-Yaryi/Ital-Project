@@ -536,6 +536,9 @@ text-decoration: none;
 .project {
   margin-bottom: 60px;
 }
+.timeline {
+  margin-bottom: 50px;
+}
 .timeline__item {
   display: grid;
   grid-template-columns: 360px 360px 360px;
@@ -634,4 +637,31 @@ text-decoration: none;
 }
 .hl2 {
   margin-right: 0;
+}
+.arborist-p {
+  margin-bottom: 10px;
+}
+.project__img1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.liveroom__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.liveroom__inner1 {
+  margin-right: 40px;
+}
+.liveroom__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+.liveroom__inner ul {
+  List-style-type: none;
+  line-height: 27px;
 }
