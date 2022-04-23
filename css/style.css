@@ -48,6 +48,7 @@ h2{
   font-weight: 600;
   font-size: 46px;
   line-height: 63px;
+  font-family: 'Open Sans';
 }
 h3 {
   line-height: 39.3px;
@@ -919,3 +920,45 @@ text-decoration: none;
   width: 100%;
   border-bottom: #D8B152 1px solid;
 }
+.feedbackform {
+  padding: 120px 120px 142px;
+  background-color: #AEA38B;
+  margin-bottom: -140px;
+}
+.feedbackform__item {
+  color: #fff;
+}
+.feedbackform__title {
+  margin-bottom: 20px;
+}
+.feedbackform__text {
+  margin-bottom: 60px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.feedbackform__form {
+  display: flex;
+  justify-content: space-between;
+}
+.feedbackform__form input {
+  width: 360px;
+  background-color: inherit;
+  border-style: solid;
+  border-color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 18px 22px 17px;
+}
+input::placeholder {
+  color: #ffffff;
+}
+
+
+.feedbackform-btn {
+  width: 360px;
+}
+
