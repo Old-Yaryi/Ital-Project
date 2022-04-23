@@ -853,3 +853,69 @@ text-decoration: none;
 .want {
   padding: 130px 204px 134px;
 }
+.result {
+  margin-top: 50px;
+}
+.result__item {
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.result__inner-txt {
+  width: 760px;
+  margin-right: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.result__inner-txt ul {
+  list-style: none;
+}
+.result__inner-txt li {
+  margin-bottom: 10px;
+}
+.result__inner-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result__img {
+  margin-bottom: 45px;
+}
+.result__gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+.result__gallery img {
+  margin-bottom: 50px;
+}
+.servicelist {
+  margin-bottom: 140px;
+}
+.servicelist__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.servicelist__inner {
+  width: 260px;
+  margin-bottom: 40px;
+}
+.servicelist__inner-nuber {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.servicelist__inner-num {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 400;
+  color: #D8B152;
+}
+.servicelist__inner-mb {
+  width: 100%;
+  border-bottom: #D8B152 1px solid;
+}
