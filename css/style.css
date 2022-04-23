@@ -740,3 +740,116 @@ text-decoration: none;
   flex-direction: column;
   justify-content: center;
 }
+.eatery {
+  margin-top: 50px;
+  
+}
+.eatery__item{
+  display: flex;
+  margin-bottom: 120px;
+}
+.eatery__inner1 {
+  margin-right: 40px;
+}
+.eatery__inner {
+  display: flex;
+  align-items: center;
+}
+.eatery-block {
+  margin-bottom: 140px;
+}
+.eatery-block__item {
+  display: flex;
+}
+.eatery-block__inner1 {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.eatery-block__item-text {
+  width: 762px;
+  margin-bottom: 50px;
+}
+.eatery-block__item-img {
+  display: flex;
+  justify-content: space-between;
+}
+.eatery-block__inner {
+  display: flex;
+  align-items: flex-end;
+}
+.bedroom-img {
+  text-align: center;
+  margin-bottom: 139px;
+}
+
+.bedroom__item {
+  display: flex;
+  margin-bottom: 140px;
+}
+.bedroom__item__inner1 {
+  margin-right: 42px;
+  display: flex;
+  align-items: flex-end;
+}
+.bedroom__item__inner {
+  display: flex;
+  flex-direction: column;
+}
+.bedroom__item__inner-text {
+  margin-bottom: 50px;
+  width: 762px;
+}
+.bedroom__item__inner-img {
+  display: flex;
+  justify-content: space-between;
+}
+.bathroom {
+  margin-bottom: 120px;
+}
+.bathroom__item {
+  display: flex;
+  justify-content: space-between;
+}
+.bathroom__inner1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 460px;
+}
+.guest {
+  margin-bottom: 90px;
+}
+.guest__item {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.guest__item-img {
+  margin-bottom: 50px;
+}
+.toilets {
+  margin-bottom: 140px;
+}
+.toilets__item {
+  display: flex;
+  justify-content: space-between;
+}
+.toilets__inner-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.toilets__inner-info_txt {
+  width: 560px;
+}
+.toilets__inner-info_txt ul {
+  list-style: none;
+}
+.toilets__inner-info_txt li {
+  margin-bottom: 10px;
+}
+.want {
+  padding: 130px 204px 134px;
+}
